@@ -18,7 +18,7 @@
     <junit.version>4.8.2</junit.version>
     <jackson.version>1.8.3</jackson.version>
     <servlet-api.version>2.5</servlet-api.version>
-    <neo4j.version>1.9-SNAPSHOT</neo4j.version>
+    <neo4j.version>1.9.2</neo4j.version>
     <jersey.server.version>1.6</jersey.server.version>
     <license-text.header>GPL-3-header.txt</license-text.header>
   </properties>
@@ -82,7 +82,7 @@ the relevant Commercial Agreement.
     <dependency>
       <groupId>org.neo4j</groupId>
       <artifactId>neo4j-geoff-core</artifactId>
-      <version>${neo4j.version}</version>
+      <version>1.9-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.sun.jersey</groupId>
